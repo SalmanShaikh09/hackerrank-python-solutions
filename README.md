@@ -15,6 +15,7 @@ This repository contains my solutions to Python programming challenges from Hack
 
 - Python Lists
 - List Comprehensions
+- If-Else(Conditional Statements)
 
 *More topics will be added as I progress.*
 
@@ -23,6 +24,7 @@ This repository contains my solutions to Python programming challenges from Hack
 | No. | Problem | Solution |
 |---|---|---|
 | 1 | List Comprehensions | [`list_comprehensions.py`](./list_comprehensions.py) |
+| 2 | Python If-Else | [Python_If_Else.py](./Python_If_Else.py) |
 
 ##  Language and Tools
 
