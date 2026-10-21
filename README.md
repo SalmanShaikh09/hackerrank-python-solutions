@@ -26,6 +26,32 @@ This repository contains my solutions to Python programming challenges from Hack
 | 1 | List Comprehensions | [`list_comprehensions.py`](./list_comprehensions.py) |
 | 2 | Python If-Else | [Python_If_Else.py](./Python_If_Else.py) |
 
+   ## 2. Problem: Python If-Else
+    
+   **Language:** Python 3  
+   **Topic:** Conditional Statements
+
+   ### Problem Description
+   Given an integer `n`, determine whether it is `Weird` or `Not Weird` according to the specified conditions.
+
+   ### Concepts Used
+   - `if`, `elif`, and `else`
+   - Modulo operator (`%`)
+   - Comparison operators (`<=`, `>`, `!=`)
+   - Logical conditions
+
+   ### Approach
+   1. Take an integer as input.
+   2. Check whether the number is odd or even.
+   3. Apply the given conditions in the correct order.
+   4. Print `Weird` or `Not Weird`.
+
+   ### What I Learned
+   - How to use `if`, `elif`, and `else` to make decisions.
+   - How the modulo operator helps check whether a number is odd or even.
+   - Why checking conditions in the correct order is important.
+
+
 ##  Language and Tools
 
 - **Language:** Python 3
