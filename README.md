@@ -24,7 +24,7 @@ This repository contains my solutions to Python programming challenges from Hack
 | No. | Problem | Solution |
 |---|---|---|
 | 1 | List Comprehensions | [`list_comprehensions.py`](./list_comprehensions.py) |
-| 2 | Python If-Else | [Python_If_Else.py](./Python_If_Else.py) |
+
 
 ## 2. Problem: Python If-Else
     
@@ -46,10 +46,47 @@ Given an integer `n`, determine whether it is `Weird` or `Not Weird` according t
 3. Apply the given conditions in the correct order.
 4. Print `Weird` or `Not Weird`.
 
+## Solution
+[View_Python_solution: Python_If_Else.py](./Python_If_Else.py) |
+
 ### What I Learned
 - How to use `if`, `elif`, and `else` to make decisions.
 - How the modulo operator helps check whether a number is odd or even.
 - Why checking conditions in the correct order is important.
+
+
+## 3. Problem: itertools.product()
+
+### Problem Description
+Given two lists, A and B, compute their Cartesian product. The Cartesian product contains all possible ordered pairs formed by taking one element from each list.
+
+
+### Topics Covered
+- Lists
+- `input()` and `split()`
+- `map()` and `int()`
+- `for` loops
+- Nested loops
+- Tuples
+- Cartesian Product
+- `itertools.product()`
+
+### Approaches Used
+
+**Approach 1: Nested Loops**
+- Use an outer loop to iterate through list A.
+- Use an inner loop to iterate through list B.
+- Create an ordered pair for each combination.
+
+**Approach 2: Using `itertools.product()`**
+- Import `product` from the `itertools` module.
+- Generate all possible ordered pairs directly.
+
+### Solution
+[View Python Solution: itertools_product.py](itertools_product.py)
+
+### What I Learned
+I learned how to generate a Cartesian product using nested loops and how Python's `itertools.product()` function simplifies the same task.
 
 
 ##  Language and Tools
