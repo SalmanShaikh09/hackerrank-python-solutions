@@ -127,7 +127,7 @@ Print the list whenever the `print` command is provided.
 
 ### Solution
 
-View Python solution: [Python_Lists.py](Python_Lists.py)
+View Python solution: [python_List.py](python_List.py)
 
 
 ### What I Learned
