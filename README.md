@@ -89,6 +89,57 @@ Given two lists, A and B, compute their Cartesian product. The Cartesian product
 I learned how to generate a Cartesian product using nested loops and how Python's `itertools.product()` function simplifies the same task.
 
 
+## 4. Problem: Python Lists
+ 
+**Topic:** Lists and List Methods
+
+### Problem Description
+
+Given an empty list, perform different operations such as inserting, removing, appending, sorting, popping, and reversing elements based on the given commands.
+
+Print the list whenever the `print` command is provided.
+
+### Topics Covered
+
+- Lists
+- `input()` and `split()`
+- `int()` type conversion
+- `for` loop
+- `if`, `elif` conditional statements
+- List methods:
+  - `insert()`
+  - `append()`
+  - `remove()`
+  - `sort()`
+  - `pop()`
+  - `reverse()`
+    
+
+### Approach
+
+1. Take the number of commands as input.
+2. Initialize an empty list.
+3. Use a `for` loop to process each command.
+4. Use `split()` to separate the command and its arguments.
+5. Apply the corresponding list method using `if` and `elif` conditions.
+6. Print the list whenever the `print` command is given.
+   
+
+### Solution
+
+View Python solution: [Python_Lists.py](Python_Lists.py)
+
+
+### What I Learned
+
+- How to create and manipulate Python lists.
+- How to use different built-in list methods.
+- How to process multiple commands using loops and conditional statements.
+- How to perform list operations dynamically based on user input.
+
+  
+
+
 ##  Language and Tools
 
 - **Language:** Python 3
