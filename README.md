@@ -192,7 +192,6 @@ Harry
 
 [View Python Solution](nested_lists.py)
 
-
   
 
 
