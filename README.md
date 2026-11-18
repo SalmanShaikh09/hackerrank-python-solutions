@@ -137,6 +137,62 @@ View Python solution: [python_List.py](python_List.py)
 - How to process multiple commands using loops and conditional statements.
 - How to perform list operations dynamically based on user input.
 
+
+
+
+## Problem 5: Nested Lists
+
+### Problem Explanation
+
+In this problem, we are given the names and grades of students in a class.
+
+We need to store each student's name and grade in a nested list and find the student(s) who have the **second lowest grade**.
+
+If multiple students have the second lowest grade, we need to:
+- Find all students having that grade.
+- Arrange their names in alphabetical order.
+- Print each name on a separate line.
+
+### Example
+
+**Input:**
+```text
+5
+Harry
+37.21
+Berry
+37.21
+Tina
+37.2
+Akriti
+41
+Harsh
+39
+```
+
+**Output:**
+```text
+Berry
+Harry
+```
+
+### HackerRank Problem
+
+[Nested Lists - HackerRank](https://www.hackerrank.com/challenges/nested-list/problem)
+
+### Topics Covered
+- Nested Lists
+- List Comprehension
+- Sets
+- Sorting
+- Conditional Statements
+- Loops
+
+### Solution
+
+[View Python Solution](nested_lists.py)
+
+
   
 
 
