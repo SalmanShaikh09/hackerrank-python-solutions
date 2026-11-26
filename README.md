@@ -192,6 +192,77 @@ Harry
 
 [View Python Solution](Nested_Lists.py)
 
+
+
+## Problem 6: Alphabet Rangoli
+
+### Problem Explanation
+
+In this problem, we are given an integer representing the size of the rangoli.
+
+We need to create a symmetrical pattern using lowercase English letters.
+
+The pattern starts with the letter `a` in the center and expands towards the boundary using letters in alphabetical order.
+
+The final pattern should be symmetrical horizontally and vertically, with hyphens (`-`) used to maintain proper spacing.
+
+### Example
+
+**Input:**
+```text
+5
+```
+
+**Output:**
+```text
+--------e--------
+------e-d-e------
+----e-d-c-d-e----
+--e-d-c-b-c-d-e--
+e-d-c-b-a-b-c-d-e
+--e-d-c-b-c-d-e--
+----e-d-c-d-e----
+------e-d-e------
+--------e--------
+```
+
+### HackerRank Problem
+
+[Alphabet Rangoli - HackerRank](https://www.hackerrank.com/challenges/alphabet-rangoli/problem)
+
+### Topics Covered
+
+**1. Loops**
+- Used to generate each row of the rangoli.
+- Help repeat the pattern for the required number of rows.
+
+**2. String Manipulation**
+- Used to arrange letters in the correct order.
+- Helps combine letters and hyphens to create the pattern.
+
+**3. List Operations**
+- Useful for storing and arranging the letters before creating each row.
+
+**4. String Formatting**
+- Used to maintain equal spacing and alignment in every row.
+
+**5. Pattern Printing**
+- Used to create a symmetrical rangoli pattern by combining the generated rows.
+
+### Important Logic
+
+The main logic of this problem is to generate the upper half of the rangoli, including the middle row, and then generate the lower half by reversing the upper half (excluding the middle row).
+
+This avoids writing separate logic for both halves and makes the solution easier to understand.
+
+### Key Learning
+
+Learned how to generate symmetrical patterns using Python loops, string manipulation, and logical thinking.
+
+### Solution
+
+[View Python Solution](Alphabet_Rangoli.py)
+
   
 
 
