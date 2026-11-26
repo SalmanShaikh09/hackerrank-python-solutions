@@ -261,7 +261,9 @@ Learned how to generate symmetrical patterns using Python loops, string manipula
 
 ### Solution
 
-[Alphabet_Rangoli.py](https://github.com/SalmanShaikh09/hackerrank-python-solutions/blob/main/Alphabet_Rangoli.py)
+### Solution
+
+[View Python Solution](alphabet_rangoli.py)
 
   
 
